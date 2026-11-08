@@ -213,4 +213,4 @@ The current active runtime has been tightened in several important ways:
 
 ## Residual Notes
 
-`Deadline1` and `Deadline2` are preserved as historical implementations. They build after cleanup, but the production-grade implementation is `Deadline3/upload`; use that tree for new development and benchmarking.
+`Deadline1` and `Deadline2` are preserved as historical implementations. They build after cleanup, but the latest implementation is `Deadline3/upload`; use that tree for new development and benchmarking.
