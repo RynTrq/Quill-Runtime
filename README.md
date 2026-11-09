@@ -1,5 +1,7 @@
 # Quill Runtime
 
+[![Verify](https://github.com/RynTrq/Quill-Runtime/actions/workflows/verify.yml/badge.svg)](https://github.com/RynTrq/Quill-Runtime/actions/workflows/verify.yml)
+
 Quill Runtime is a compact C++11 task-parallel runtime for experimenting with work stealing, finish/async semantics, NUMA-aware scheduling policy, and recursive benchmark workloads. The active implementation lives in `Deadline3/upload`; `Deadline1` and `Deadline2` are preserved as earlier milestone snapshots.
 
 ## Project Layout
