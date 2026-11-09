@@ -11,7 +11,7 @@ deadline2:
 deadline3:
 	$(MAKE) -C Deadline3/upload
 
-test:
+test: deadline3
 	$(MAKE) -C Deadline3/upload test
 	QUILL_WORKERS=4 Deadline3/upload/nqueens 8
 	QUILL_WORKERS=4 Deadline3/upload/iterative_averaging 4096 4
